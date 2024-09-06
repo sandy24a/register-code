@@ -1,1 +1,1 @@
-# register file Veriog-code
+# register file Verilog-code

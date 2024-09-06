@@ -1,0 +1,132 @@
+$date
+	Fri Sep  6 16:24:57 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module regFile_tb $end
+$var wire 32 ! op2 [31:0] $end
+$var wire 32 " op1 [31:0] $end
+$var reg 1 # EN $end
+$var reg 32 $ Ip1 [31:0] $end
+$var reg 1 % RD $end
+$var reg 1 & WR $end
+$var reg 1 ' clk $end
+$var reg 1 ( rst $end
+$var reg 4 ) sel_i1 [3:0] $end
+$var reg 4 * sel_o1 [3:0] $end
+$var reg 4 + sel_o2 [3:0] $end
+$scope module dut $end
+$var wire 1 # EN $end
+$var wire 32 , Ip1 [31:0] $end
+$var wire 1 % RD $end
+$var wire 1 & WR $end
+$var wire 1 ' clk $end
+$var wire 1 ( rst $end
+$var wire 4 - sel_i1 [3:0] $end
+$var wire 4 . sel_o1 [3:0] $end
+$var wire 4 / sel_o2 [3:0] $end
+$var reg 32 0 op1 [31:0] $end
+$var reg 32 1 op2 [31:0] $end
+$var integer 32 2 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10000 2
+bx 1
+bx 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+1(
+0'
+0&
+0%
+b0 $
+0#
+bx "
+bx !
+$end
+#10000
+b10000 2
+1'
+#20000
+0'
+#30000
+b10000 2
+1'
+#40000
+0'
+#50000
+b10000 2
+1'
+#60000
+0'
+#70000
+b10000 2
+1'
+#80000
+0'
+#90000
+b10000 2
+1'
+#100000
+0'
+1#
+0(
+#110000
+1'
+#120000
+0'
+b10101011110011011110111110101011 $
+b10101011110011011110111110101011 ,
+1&
+#130000
+1'
+#140000
+0'
+b1 )
+b1 -
+b1001000110100010101100111 $
+b1001000110100010101100111 ,
+#150000
+1'
+#160000
+0'
+b1 +
+b1 /
+1%
+0&
+#170000
+b1001000110100010101100111 !
+b1001000110100010101100111 1
+b10101011110011011110111110101011 "
+b10101011110011011110111110101011 0
+1'
+#180000
+0'
+#190000
+1'
+#200000
+0'
+#210000
+1'
+#220000
+0'
+#230000
+1'
+#240000
+0'
+#250000
+1'
+#260000
+0'
